@@ -1,10 +1,11 @@
-Node: This a fork of Code Tool for the [Editor.js](https://github.com/paraswaykole/editor-js-code)
+Node: This a fork of [editor-js-code](https://github.com/paraswaykole/editor-js-code)
+for the [Editor.js](https://github.com/paraswaykole/editor-js-code)
 that allows to include code examples along with language codes that are supported by PrismJs in your articles.
 
 
 ![](https://badgen.net/badge/Editor.js/v2.0/blue)
 
-# Code Tool for Editor.js with language selector
+# Code Language tool for Editor.js with language choose
 
 ![](https://capella.pics/7a1092f7-add5-4dd8-9c8c-2f32cb8c4586.jpg)
 
@@ -35,14 +36,17 @@ Add a new Tool to the `tools` property of the Editor.js initial config.
 
 ```javascript
 var editor = EditorJS({
-  ...
-
   tools: {
-    ...
     code: CodeTool,
+    config: {
+      languages: {
+        'js': 'JavaScript',
+        'php': 'PHP',
+        'css': 'CSS',
+        'twig': 'TWIG',
+      }
+    }
   }
-
-  ...
 });
 ```
 
@@ -51,6 +55,7 @@ var editor = EditorJS({
 | Field       | Type     | Description                    |
 | ----------- | -------- | -------------------------------|
 | placeholder | `string` | Code Tool's placeholder string |
+| languages | `Object` | The object containing language code |
 
 ## Output data
 

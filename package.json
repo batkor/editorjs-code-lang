@@ -1,13 +1,13 @@
 {
   "name": "@batkor/code-lang",
-  "version": "2.5.0",
+  "version": "1.0.3",
   "keywords": [
     "codex editor",
     "code",
     "tool",
     "editor.js",
     "editorjs",
-    "Drupal,
+    "Drupal"
   ],
   "description": "Code Tool supported languages for Editor.js",
   "license": "MIT",

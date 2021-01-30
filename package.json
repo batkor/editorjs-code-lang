@@ -1,24 +1,25 @@
 {
-  "name": "@editorjs/code",
+  "name": "@batkor/code-lang",
   "version": "2.5.0",
   "keywords": [
     "codex editor",
     "code",
     "tool",
     "editor.js",
-    "editorjs"
+    "editorjs",
+    "Drupal,
   ],
-  "description": "Code Tool for Editor.js",
+  "description": "Code Tool supported languages for Editor.js",
   "license": "MIT",
-  "repository": "https://github.com/editor-js/code",
+  "repository": "https://github.com/batkor/editorjs-code-lang",
   "main": "./dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development --watch"
   },
   "author": {
-    "name": "CodeX",
-    "email": "team@codex.so"
+    "name": "batkor",
+    "email": "info@batkor.ru"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
